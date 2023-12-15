@@ -8,15 +8,6 @@ export 'api_manager.dart' show ApiCallResponse;
 
 const _kPrivateApiFunctionName = 'ffPrivateApiCall';
 
-/// Start teste Group Code
-
-class TesteGroup {
-  static String baseUrl = 'teste';
-  static Map<String, String> headers = {};
-}
-
-/// End teste Group Code
-
 class AdicionaPedidoCall {
   static Future<ApiCallResponse> call({
     String? nome = '',
@@ -43,8 +34,7 @@ class AdicionaPedidoCall {
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'AdicionaPedido',
-      apiUrl:
-          'https://tcb-m-configurator-api-e62c2cd0c9a2.herokuapp.com/pedido',
+      apiUrl: 'https://backconfigurator.absoluteacoustics.com.br/pedido',
       callType: ApiCallType.POST,
       headers: {},
       params: {},
@@ -54,6 +44,7 @@ class AdicionaPedidoCall {
       encodeBodyUtf8: false,
       decodeUtf8: false,
       cache: false,
+      alwaysAllowBody: false,
     );
   }
 }
@@ -64,8 +55,7 @@ class ListaTodosPedidosCall {
   }) async {
     return ApiManager.instance.makeApiCall(
       callName: 'ListaTodosPedidos',
-      apiUrl:
-          'https://tcb-m-configurator-api-e62c2cd0c9a2.herokuapp.com/pedido',
+      apiUrl: 'https://backconfigurator.absoluteacoustics.com.br/pedido',
       callType: ApiCallType.GET,
       headers: {
         'Authorization': '${token}',
@@ -75,6 +65,7 @@ class ListaTodosPedidosCall {
       encodeBodyUtf8: false,
       decodeUtf8: false,
       cache: false,
+      alwaysAllowBody: false,
     );
   }
 }
@@ -91,8 +82,7 @@ class LoginCall {
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'Login',
-      apiUrl:
-          'https://tcb-m-configurator-api-e62c2cd0c9a2.herokuapp.com/auth/login',
+      apiUrl: 'https://backconfigurator.absoluteacoustics.com.br/auth/login',
       callType: ApiCallType.POST,
       headers: {},
       params: {},
@@ -102,6 +92,7 @@ class LoginCall {
       encodeBodyUtf8: false,
       decodeUtf8: false,
       cache: false,
+      alwaysAllowBody: false,
     );
   }
 }
@@ -120,8 +111,7 @@ class CriaUsuarioCall {
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'CriaUsuario',
-      apiUrl:
-          'https://tcb-m-configurator-api-e62c2cd0c9a2.herokuapp.com/auth/signup',
+      apiUrl: 'https://backconfigurator.absoluteacoustics.com.br/auth/signup/',
       callType: ApiCallType.POST,
       headers: {},
       params: {},
@@ -131,6 +121,7 @@ class CriaUsuarioCall {
       encodeBodyUtf8: false,
       decodeUtf8: false,
       cache: false,
+      alwaysAllowBody: false,
     );
   }
 }
@@ -141,8 +132,7 @@ class ShowMeCall {
   }) async {
     return ApiManager.instance.makeApiCall(
       callName: 'ShowMe',
-      apiUrl:
-          'https://tcb-m-configurator-api-e62c2cd0c9a2.herokuapp.com/auth/me',
+      apiUrl: 'https://backconfigurator.absoluteacoustics.com.br/auth/me',
       callType: ApiCallType.GET,
       headers: {
         'Authorization': '${token}',
@@ -152,6 +142,7 @@ class ShowMeCall {
       encodeBodyUtf8: false,
       decodeUtf8: false,
       cache: false,
+      alwaysAllowBody: false,
     );
   }
 }

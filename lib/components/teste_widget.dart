@@ -53,7 +53,7 @@ class _TesteWidgetState extends State<TesteWidget> {
     context.watch<FFAppState>();
 
     return Padding(
-      padding: EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
+      padding: EdgeInsets.all(16.0),
       child: Container(
         width: 300.0,
         child: Column(
@@ -69,7 +69,7 @@ class _TesteWidgetState extends State<TesteWidget> {
                   ),
             ),
             Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+              padding: EdgeInsets.all(8.0),
               child: TextFormField(
                 controller: _model.textController1,
                 focusNode: _model.textFieldFocusNode1,
@@ -123,7 +123,7 @@ class _TesteWidgetState extends State<TesteWidget> {
               ),
             ),
             Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+              padding: EdgeInsets.all(8.0),
               child: TextFormField(
                 controller: _model.textController2,
                 focusNode: _model.textFieldFocusNode2,
@@ -177,7 +177,7 @@ class _TesteWidgetState extends State<TesteWidget> {
               ),
             ),
             Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+              padding: EdgeInsets.all(8.0),
               child: TextFormField(
                 controller: _model.textController3,
                 focusNode: _model.textFieldFocusNode3,
@@ -232,7 +232,7 @@ class _TesteWidgetState extends State<TesteWidget> {
               ),
             ),
             Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+              padding: EdgeInsets.all(8.0),
               child: FFButtonWidget(
                 onPressed: () {
                   print('Button pressed ...');

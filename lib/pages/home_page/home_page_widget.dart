@@ -217,7 +217,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               ),
                                               Align(
                                                 alignment: AlignmentDirectional(
-                                                    0.00, 0.00),
+                                                    0.0, 0.0),
                                                 child: ClipRRect(
                                                   borderRadius:
                                                       BorderRadius.circular(
@@ -298,7 +298,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                   ),
                                                   alignment:
                                                       AlignmentDirectional(
-                                                          -1.00, 0.00),
+                                                          -1.0, 0.0),
                                                   child: Column(
                                                     mainAxisSize:
                                                         MainAxisSize.max,
@@ -1075,7 +1075,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                       Align(
                                                         alignment:
                                                             AlignmentDirectional(
-                                                                -1.00, 0.00),
+                                                                -1.0, 0.0),
                                                         child: Padding(
                                                           padding:
                                                               EdgeInsetsDirectional
@@ -1094,13 +1094,12 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                             ),
                                                             alignment:
                                                                 AlignmentDirectional(
-                                                                    -1.00,
-                                                                    0.00),
+                                                                    -1.0, 0.0),
                                                             child: Align(
                                                               alignment:
                                                                   AlignmentDirectional(
-                                                                      -1.00,
-                                                                      0.00),
+                                                                      -1.0,
+                                                                      0.0),
                                                               child: Container(
                                                                 width: double
                                                                     .infinity,
@@ -1159,9 +1158,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                     ),
                                                                     expanded:
                                                                         Align(
-                                                                      alignment: AlignmentDirectional(
-                                                                          -1.00,
-                                                                          0.00),
+                                                                      alignment:
+                                                                          AlignmentDirectional(
+                                                                              -1.0,
+                                                                              0.0),
                                                                       child:
                                                                           Column(
                                                                         mainAxisSize:
@@ -1201,7 +1201,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                         )
                                                                                       ],
                                                                                     ),
-                                                                                    alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                    alignment: AlignmentDirectional(0.0, 0.0),
                                                                                     child: Text(
                                                                                       '3 Slots',
                                                                                       textAlign: TextAlign.center,
@@ -1236,7 +1236,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                         )
                                                                                       ],
                                                                                     ),
-                                                                                    alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                    alignment: AlignmentDirectional(0.0, 0.0),
                                                                                     child: Text(
                                                                                       '2 Slots',
                                                                                       textAlign: TextAlign.center,
@@ -1271,7 +1271,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                         )
                                                                                       ],
                                                                                     ),
-                                                                                    alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                    alignment: AlignmentDirectional(0.0, 0.0),
                                                                                     child: Text(
                                                                                       '1 Slot',
                                                                                       textAlign: TextAlign.center,
@@ -1290,7 +1290,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                           if (FFAppState().tabModulos ==
                                                                               3)
                                                                             Align(
-                                                                              alignment: AlignmentDirectional(0.00, 0.00),
+                                                                              alignment: AlignmentDirectional(0.0, 0.0),
                                                                               child: Padding(
                                                                                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 10.0),
                                                                                 child: Builder(
@@ -1307,7 +1307,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                             mainAxisSize: MainAxisSize.max,
                                                                                             children: [
                                                                                               Align(
-                                                                                                alignment: AlignmentDirectional(-1.00, 0.00),
+                                                                                                alignment: AlignmentDirectional(-1.0, 0.0),
                                                                                                 child: InkWell(
                                                                                                   splashColor: Colors.transparent,
                                                                                                   focusColor: Colors.transparent,
@@ -1364,7 +1364,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                                       width: 135.0,
                                                                                                       height: 189.0,
                                                                                                       fit: BoxFit.none,
-                                                                                                      alignment: Alignment(0.00, 0.00),
+                                                                                                      alignment: Alignment(0.0, 0.0),
                                                                                                     ),
                                                                                                   ),
                                                                                                 ),
@@ -1393,7 +1393,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                           if (FFAppState().tabModulos ==
                                                                               2)
                                                                             Align(
-                                                                              alignment: AlignmentDirectional(-1.00, 0.00),
+                                                                              alignment: AlignmentDirectional(-1.0, 0.0),
                                                                               child: Padding(
                                                                                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 10.0),
                                                                                 child: Builder(
@@ -1407,7 +1407,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                         itemBuilder: (context, listaModulosIndex, _) {
                                                                                           final listaModulosItem = listaModulos[listaModulosIndex];
                                                                                           return Align(
-                                                                                            alignment: AlignmentDirectional(-1.00, 0.00),
+                                                                                            alignment: AlignmentDirectional(-1.0, 0.0),
                                                                                             child: InkWell(
                                                                                               splashColor: Colors.transparent,
                                                                                               focusColor: Colors.transparent,
@@ -1464,7 +1464,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                                   width: 92.0,
                                                                                                   height: 189.0,
                                                                                                   fit: BoxFit.none,
-                                                                                                  alignment: Alignment(0.00, 0.00),
+                                                                                                  alignment: Alignment(0.0, 0.0),
                                                                                                 ),
                                                                                               ),
                                                                                             ),
@@ -1491,7 +1491,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                           if (FFAppState().tabModulos ==
                                                                               1)
                                                                             Align(
-                                                                              alignment: AlignmentDirectional(-1.00, 0.00),
+                                                                              alignment: AlignmentDirectional(-1.0, 0.0),
                                                                               child: Padding(
                                                                                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 10.0),
                                                                                 child: Builder(
@@ -1505,7 +1505,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                         itemBuilder: (context, listaModulosIndex, _) {
                                                                                           final listaModulosItem = listaModulos[listaModulosIndex];
                                                                                           return Align(
-                                                                                            alignment: AlignmentDirectional(-1.00, 0.00),
+                                                                                            alignment: AlignmentDirectional(-1.0, 0.0),
                                                                                             child: InkWell(
                                                                                               splashColor: Colors.transparent,
                                                                                               focusColor: Colors.transparent,
@@ -1562,7 +1562,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                                   width: 47.0,
                                                                                                   height: 189.0,
                                                                                                   fit: BoxFit.none,
-                                                                                                  alignment: Alignment(0.00, 0.00),
+                                                                                                  alignment: Alignment(0.0, 0.0),
                                                                                                 ),
                                                                                               ),
                                                                                             ),
@@ -1675,9 +1675,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                           .max,
                                                                   children: [
                                                                     Align(
-                                                                      alignment: AlignmentDirectional(
-                                                                          0.00,
-                                                                          0.00),
+                                                                      alignment:
+                                                                          AlignmentDirectional(
+                                                                              0.0,
+                                                                              0.0),
                                                                       child:
                                                                           Padding(
                                                                         padding: EdgeInsetsDirectional.fromSTEB(
@@ -1702,7 +1703,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                     mainAxisSize: MainAxisSize.max,
                                                                                     children: [
                                                                                       Align(
-                                                                                        alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                        alignment: AlignmentDirectional(0.0, 0.0),
                                                                                         child: InkWell(
                                                                                           splashColor: Colors.transparent,
                                                                                           focusColor: Colors.transparent,
@@ -1757,7 +1758,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                               width: 110.0,
                                                                                               height: 189.0,
                                                                                               fit: BoxFit.none,
-                                                                                              alignment: Alignment(0.00, 0.00),
+                                                                                              alignment: Alignment(0.0, 0.0),
                                                                                             ),
                                                                                           ),
                                                                                         ),
@@ -1824,7 +1825,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 Align(
                                                   alignment:
                                                       AlignmentDirectional(
-                                                          0.00, 0.00),
+                                                          0.0, 0.0),
                                                   child: Padding(
                                                     padding:
                                                         EdgeInsetsDirectional
@@ -1942,8 +1943,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 Align(
                                                                   alignment:
                                                                       AlignmentDirectional(
-                                                                          0.00,
-                                                                          0.00),
+                                                                          0.0,
+                                                                          0.0),
                                                                   child: Column(
                                                                     mainAxisSize:
                                                                         MainAxisSize
@@ -1954,8 +1955,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                     children: [
                                                                       Align(
                                                                         alignment: AlignmentDirectional(
-                                                                            1.00,
-                                                                            -1.00),
+                                                                            1.0,
+                                                                            -1.0),
                                                                         child:
                                                                             Padding(
                                                                           padding: EdgeInsetsDirectional.fromSTEB(
@@ -2002,8 +2003,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                       ),
                                                                       Align(
                                                                         alignment: AlignmentDirectional(
-                                                                            0.00,
-                                                                            0.00),
+                                                                            0.0,
+                                                                            0.0),
                                                                         child:
                                                                             Row(
                                                                           mainAxisSize:
@@ -2012,7 +2013,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                               MainAxisAlignment.center,
                                                                           children: [
                                                                             Align(
-                                                                              alignment: AlignmentDirectional(0.00, 0.00),
+                                                                              alignment: AlignmentDirectional(0.0, 0.0),
                                                                               child: Padding(
                                                                                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 240.0, 0.0, 0.0),
                                                                                 child: Container(
@@ -2034,7 +2035,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                             return Visibility(
                                                                                               visible: (modulosItem.tipo != 'Gabinete8black') && (modulosItem.tipo != 'Gabinete8silver') && (modulosItem.tipo != 'Gabinete5silver') && (modulosItem.tipo != 'Gabinete5black'),
                                                                                               child: Align(
-                                                                                                alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                                alignment: AlignmentDirectional(0.0, 0.0),
                                                                                                 child: Builder(
                                                                                                   builder: (context) => InkWell(
                                                                                                     splashColor: Colors.transparent,
@@ -2070,7 +2071,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                                         modulosItem.imagem,
                                                                                                         height: 191.0,
                                                                                                         fit: BoxFit.contain,
-                                                                                                        alignment: Alignment(0.00, 0.00),
+                                                                                                        alignment: Alignment(0.0, 0.0),
                                                                                                       ),
                                                                                                     ),
                                                                                                   ).animateOnActionTrigger(
@@ -2102,7 +2103,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                         Align(
                                                           alignment:
                                                               AlignmentDirectional(
-                                                                  0.00, 0.00),
+                                                                  0.0, 0.0),
                                                           child: Padding(
                                                             padding:
                                                                 EdgeInsetsDirectional
@@ -2134,8 +2135,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 Align(
                                                                   alignment:
                                                                       AlignmentDirectional(
-                                                                          0.00,
-                                                                          0.00),
+                                                                          0.0,
+                                                                          0.0),
                                                                   child:
                                                                       InkWell(
                                                                     splashColor:
@@ -2189,8 +2190,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 Align(
                                                                   alignment:
                                                                       AlignmentDirectional(
-                                                                          0.00,
-                                                                          0.00),
+                                                                          0.0,
+                                                                          0.0),
                                                                   child:
                                                                       InkWell(
                                                                     splashColor:
@@ -2231,11 +2232,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                       ),
                                                                       child:
                                                                           Padding(
-                                                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0),
+                                                                        padding:
+                                                                            EdgeInsets.all(4.0),
                                                                         child:
                                                                             ClipRRect(
                                                                           borderRadius:
@@ -2258,8 +2256,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 Align(
                                                                   alignment:
                                                                       AlignmentDirectional(
-                                                                          0.00,
-                                                                          0.00),
+                                                                          0.0,
+                                                                          0.0),
                                                                   child:
                                                                       InkWell(
                                                                     splashColor:
@@ -2300,11 +2298,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                       ),
                                                                       child:
                                                                           Padding(
-                                                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0),
+                                                                        padding:
+                                                                            EdgeInsets.all(4.0),
                                                                         child:
                                                                             ClipRRect(
                                                                           borderRadius:
@@ -2327,8 +2322,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 Align(
                                                                   alignment:
                                                                       AlignmentDirectional(
-                                                                          0.00,
-                                                                          0.00),
+                                                                          0.0,
+                                                                          0.0),
                                                                   child:
                                                                       InkWell(
                                                                     splashColor:
@@ -2369,11 +2364,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                       ),
                                                                       child:
                                                                           Padding(
-                                                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0),
+                                                                        padding:
+                                                                            EdgeInsets.all(4.0),
                                                                         child:
                                                                             ClipRRect(
                                                                           borderRadius:
@@ -2396,8 +2388,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 Align(
                                                                   alignment:
                                                                       AlignmentDirectional(
-                                                                          0.00,
-                                                                          0.00),
+                                                                          0.0,
+                                                                          0.0),
                                                                   child:
                                                                       InkWell(
                                                                     splashColor:
@@ -2438,11 +2430,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                       ),
                                                                       child:
                                                                           Padding(
-                                                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0),
+                                                                        padding:
+                                                                            EdgeInsets.all(4.0),
                                                                         child:
                                                                             ClipRRect(
                                                                           borderRadius:
@@ -2465,8 +2454,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                 Align(
                                                                   alignment:
                                                                       AlignmentDirectional(
-                                                                          0.00,
-                                                                          0.00),
+                                                                          0.0,
+                                                                          0.0),
                                                                   child:
                                                                       InkWell(
                                                                     splashColor:
@@ -2507,11 +2496,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                       ),
                                                                       child:
                                                                           Padding(
-                                                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0),
+                                                                        padding:
+                                                                            EdgeInsets.all(4.0),
                                                                         child:
                                                                             ClipRRect(
                                                                           borderRadius:
@@ -2539,7 +2525,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                         Align(
                                                           alignment:
                                                               AlignmentDirectional(
-                                                                  0.00, 0.00),
+                                                                  0.0, 0.0),
                                                           child: Padding(
                                                             padding:
                                                                 EdgeInsetsDirectional
@@ -2917,7 +2903,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                             children: [
                                               Align(
                                                 alignment: AlignmentDirectional(
-                                                    0.00, 0.00),
+                                                    0.0, 0.0),
                                                 child: Column(
                                                   mainAxisSize:
                                                       MainAxisSize.max,
@@ -3038,8 +3024,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                           [
                                                                         Align(
                                                                           alignment: AlignmentDirectional(
-                                                                              1.00,
-                                                                              -1.00),
+                                                                              1.0,
+                                                                              -1.0),
                                                                           child:
                                                                               InkWell(
                                                                             splashColor:
@@ -3080,8 +3066,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                         ),
                                                                         Align(
                                                                           alignment: AlignmentDirectional(
-                                                                              0.00,
-                                                                              0.00),
+                                                                              0.0,
+                                                                              0.0),
                                                                           child:
                                                                               Container(
                                                                             width:
@@ -3093,7 +3079,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                               color: FlutterFlowTheme.of(context).secondaryBackground,
                                                                               image: DecorationImage(
                                                                                 fit: BoxFit.contain,
-                                                                                alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                alignment: AlignmentDirectional(0.0, 0.0),
                                                                                 image: Image.network(
                                                                                   minhasInterfacesItem.itensSelecionados[0].imagem,
                                                                                 ).image,
@@ -3105,7 +3091,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                               mainAxisAlignment: MainAxisAlignment.center,
                                                                               children: [
                                                                                 Align(
-                                                                                  alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                  alignment: AlignmentDirectional(0.0, 0.0),
                                                                                   child: Padding(
                                                                                     padding: EdgeInsetsDirectional.fromSTEB(0.0, 68.0, 0.0, 0.0),
                                                                                     child: Container(
@@ -3113,9 +3099,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                       decoration: BoxDecoration(
                                                                                         color: Color(0x00FFFFFF),
                                                                                       ),
-                                                                                      alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                      alignment: AlignmentDirectional(0.0, 0.0),
                                                                                       child: Align(
-                                                                                        alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                        alignment: AlignmentDirectional(0.0, 0.0),
                                                                                         child: Builder(
                                                                                           builder: (context) {
                                                                                             final itensMontados = minhasInterfacesItem.itensSelecionados.toList();
@@ -3127,14 +3113,14 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                                                 return Visibility(
                                                                                                   visible: itensMontadosIndex != 0,
                                                                                                   child: Align(
-                                                                                                    alignment: AlignmentDirectional(0.00, 0.00),
+                                                                                                    alignment: AlignmentDirectional(0.0, 0.0),
                                                                                                     child: ClipRRect(
                                                                                                       borderRadius: BorderRadius.circular(0.0),
                                                                                                       child: Image.network(
                                                                                                         itensMontadosItem.imagem,
                                                                                                         height: 77.0,
                                                                                                         fit: BoxFit.contain,
-                                                                                                        alignment: Alignment(0.00, 0.00),
+                                                                                                        alignment: Alignment(0.0, 0.0),
                                                                                                       ),
                                                                                                     ),
                                                                                                   ),
@@ -3369,7 +3355,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                               decoration: BoxDecoration(
                                                                                 color: FlutterFlowTheme.of(context).secondaryBackground,
                                                                               ),
-                                                                              alignment: AlignmentDirectional(0.00, 0.00),
+                                                                              alignment: AlignmentDirectional(0.0, 0.0),
                                                                               child: Column(
                                                                                 mainAxisSize: MainAxisSize.max,
                                                                                 children: [
@@ -3497,7 +3483,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                             children: [
                                               Align(
                                                 alignment: AlignmentDirectional(
-                                                    0.00, 0.00),
+                                                    0.0, 0.0),
                                                 child: Column(
                                                   mainAxisSize:
                                                       MainAxisSize.max,
@@ -3617,8 +3603,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                           [
                                                                         Align(
                                                                           alignment: AlignmentDirectional(
-                                                                              1.00,
-                                                                              -1.00),
+                                                                              1.0,
+                                                                              -1.0),
                                                                           child:
                                                                               InkWell(
                                                                             splashColor:
@@ -3659,8 +3645,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                         ),
                                                                         Align(
                                                                           alignment: AlignmentDirectional(
-                                                                              0.00,
-                                                                              0.00),
+                                                                              0.0,
+                                                                              0.0),
                                                                           child:
                                                                               Padding(
                                                                             padding: EdgeInsetsDirectional.fromSTEB(
@@ -3803,13 +3789,13 @@ class _HomePageWidgetState extends State<HomePageWidget>
             ),
             if (FFAppState().mostrapreco)
               Align(
-                alignment: AlignmentDirectional(1.00, 1.00),
+                alignment: AlignmentDirectional(1.0, 1.0),
                 child: Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 10.0),
                   child: Stack(
                     children: [
                       Align(
-                        alignment: AlignmentDirectional(1.00, 1.00),
+                        alignment: AlignmentDirectional(1.0, 1.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 10.0, 10.0),
@@ -3829,7 +3815,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               borderRadius: BorderRadius.circular(150.0),
                             ),
                             child: Align(
-                              alignment: AlignmentDirectional(0.00, 1.00),
+                              alignment: AlignmentDirectional(0.0, 1.0),
                               child: Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     20.0, 4.0, 10.0, 4.0),
@@ -4056,7 +4042,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
               ),
             if (!FFAppState().mostrapreco)
               Align(
-                alignment: AlignmentDirectional(1.00, 1.00),
+                alignment: AlignmentDirectional(1.0, 1.0),
                 child: Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 10.0),
                   child: Stack(
@@ -4134,7 +4120,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                 ),
               ),
             Align(
-              alignment: AlignmentDirectional(-1.00, -1.00),
+              alignment: AlignmentDirectional(-1.0, -1.0),
               child: Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 1.0, 0.0),
                 child: Container(
@@ -4143,7 +4129,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                   child: Stack(
                     children: [
                       Align(
-                        alignment: AlignmentDirectional(-1.00, -1.00),
+                        alignment: AlignmentDirectional(-1.0, -1.0),
                         child: FFButtonWidget(
                           onPressed: () async {
                             if (FFAppState().mostrapreco == false) {
@@ -4160,8 +4146,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           options: FFButtonOptions(
                             width: 20.0,
                             height: 20.0,
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 0.0, 0.0),
+                            padding: EdgeInsets.all(0.0),
                             iconPadding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
                             color: Color(0xFFF1F4F8),

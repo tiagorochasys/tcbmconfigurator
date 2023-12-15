@@ -66,7 +66,7 @@ class _ModalQuantidadeCaboWidgetState extends State<ModalQuantidadeCaboWidget> {
     context.watch<FFAppState>();
 
     return Align(
-      alignment: AlignmentDirectional(0.00, 0.00),
+      alignment: AlignmentDirectional(0.0, 0.0),
       child: Padding(
         padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
         child: Container(
@@ -135,7 +135,7 @@ class _ModalQuantidadeCaboWidgetState extends State<ModalQuantidadeCaboWidget> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Align(
-                            alignment: AlignmentDirectional(-1.00, -1.00),
+                            alignment: AlignmentDirectional(-1.0, -1.0),
                             child: Text(
                               valueOrDefault<String>(
                                 widget.cabo?.descricao,
@@ -173,7 +173,7 @@ class _ModalQuantidadeCaboWidgetState extends State<ModalQuantidadeCaboWidget> {
                         children: [
                           if (widget.bateria != null)
                             Align(
-                              alignment: AlignmentDirectional(-1.00, -1.00),
+                              alignment: AlignmentDirectional(-1.0, -1.0),
                               child: Text(
                                 valueOrDefault<String>(
                                   widget.cabo?.descricao,
@@ -218,7 +218,7 @@ class _ModalQuantidadeCaboWidgetState extends State<ModalQuantidadeCaboWidget> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Align(
-                            alignment: AlignmentDirectional(-1.00, -1.00),
+                            alignment: AlignmentDirectional(-1.0, -1.0),
                             child: Text(
                               valueOrDefault<String>(
                                 widget.cabo?.descricao,
@@ -253,7 +253,7 @@ class _ModalQuantidadeCaboWidgetState extends State<ModalQuantidadeCaboWidget> {
                     ],
                   ),
                 Align(
-                  alignment: AlignmentDirectional(0.00, 0.00),
+                  alignment: AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 25.0, 0.0, 0.0),
@@ -273,7 +273,7 @@ class _ModalQuantidadeCaboWidgetState extends State<ModalQuantidadeCaboWidget> {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.00, 0.00),
+                                  alignment: AlignmentDirectional(0.0, 0.0),
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(0.0),
                                     child: Image.network(
@@ -281,7 +281,7 @@ class _ModalQuantidadeCaboWidgetState extends State<ModalQuantidadeCaboWidget> {
                                       width: 110.0,
                                       height: 189.0,
                                       fit: BoxFit.contain,
-                                      alignment: Alignment(0.00, 0.00),
+                                      alignment: Alignment(0.0, 0.0),
                                     ),
                                   ),
                                 ),
