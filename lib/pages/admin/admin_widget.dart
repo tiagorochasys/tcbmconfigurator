@@ -539,7 +539,7 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                               setState(() {
                                                                 FFAppState()
                                                                         .linkpdfsempreco =
-                                                                    'http://tcb-m-configurator-api-e62c2cd0c9a2.herokuapp.com/pdf/download/${getJsonField(
+                                                                    'https://backconfigurator.absoluteacoustics.com.br/pdf/download/${getJsonField(
                                                                   pedidosListaItem,
                                                                   r'''$.idPedido''',
                                                                 ).toString()}';
@@ -620,7 +620,7 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                               setState(() {
                                                                 FFAppState()
                                                                         .linkpdfpreco =
-                                                                    'http://tcb-m-configurator-api-e62c2cd0c9a2.herokuapp.com/pdf/download/${getJsonField(
+                                                                    'https://backconfigurator.absoluteacoustics.com.br/pdf/download/${getJsonField(
                                                                   pedidosListaItem,
                                                                   r'''$.idPedido''',
                                                                 ).toString()}?mostraPreco=1';

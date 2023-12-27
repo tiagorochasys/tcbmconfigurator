@@ -68,7 +68,7 @@ class ItensStruct extends BaseStruct {
       );
 
   static ItensStruct? maybeFromMap(dynamic data) =>
-      data is Map<String, dynamic> ? ItensStruct.fromMap(data) : null;
+      data is Map ? ItensStruct.fromMap(data.cast<String, dynamic>()) : null;
 
   Map<String, dynamic> toMap() => {
         'descricao': _descricao,

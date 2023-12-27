@@ -95,10 +95,9 @@ class MinhasInterfacesStruct extends BaseStruct {
         imagem: data['imagem'] as String?,
       );
 
-  static MinhasInterfacesStruct? maybeFromMap(dynamic data) =>
-      data is Map<String, dynamic>
-          ? MinhasInterfacesStruct.fromMap(data)
-          : null;
+  static MinhasInterfacesStruct? maybeFromMap(dynamic data) => data is Map
+      ? MinhasInterfacesStruct.fromMap(data.cast<String, dynamic>())
+      : null;
 
   Map<String, dynamic> toMap() => {
         'quantidade': _quantidade,

@@ -51,8 +51,9 @@ class MeusCabosStruct extends BaseStruct {
         imagem: data['imagem'] as String?,
       );
 
-  static MeusCabosStruct? maybeFromMap(dynamic data) =>
-      data is Map<String, dynamic> ? MeusCabosStruct.fromMap(data) : null;
+  static MeusCabosStruct? maybeFromMap(dynamic data) => data is Map
+      ? MeusCabosStruct.fromMap(data.cast<String, dynamic>())
+      : null;
 
   Map<String, dynamic> toMap() => {
         'quantidade': _quantidade,
